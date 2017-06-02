@@ -37,6 +37,8 @@ class Ui
 
       puts "#{sorted[0].name}: #{sorted[0].health} health - #{sorted[1].name}: #{sorted[1].health} health"
       puts "----------------------------"
+      puts "Press return to continue."
+      gets
     end
   end
 
