@@ -28,6 +28,18 @@ class Ui
     end
   end
 
+  def get_move fighter
+    if not @test_mode
+      puts "Please choose your next move:"
+      fighter.moves.each_with_index do |move, index|
+        puts "#{index+1}: #{move.name}"
+      end
+      choice = gets.to_i - 1
+      puts
+      return fighter.moves[choice]
+    end
+  end
+
   def show_turn turnlog
     if not @test_mode
       puts "#{turnlog.fighter1.name} tries to hit #{turnlog.fighter2.name} with a #{turnlog.move.name}. It was #{turnlog.result}!"

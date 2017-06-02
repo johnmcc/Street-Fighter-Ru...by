@@ -18,7 +18,12 @@ class Game
       current_fighter = get_next_fighter
       opponent = get_opponent
 
-      move = current_fighter.get_next_move
+      if current_fighter.ai
+        move = current_fighter.get_next_move
+      else
+        move = @ui.get_move current_fighter
+      end
+
       hit = opponent.apply_move move
 
       turnlog = TurnLog.new ({

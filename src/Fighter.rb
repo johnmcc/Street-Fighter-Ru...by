@@ -1,5 +1,5 @@
 class Fighter
-  attr_reader :name, :health, :taunt
+  attr_reader :name, :health, :taunt, :ai
   attr_accessor :moves
 
   def initialize ai
