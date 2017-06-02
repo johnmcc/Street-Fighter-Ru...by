@@ -1,4 +1,3 @@
-require_relative "src/Fighter"
 require_relative "src/Game"
 require_relative "src/Ui"
 require_relative "src/FighterFactory"

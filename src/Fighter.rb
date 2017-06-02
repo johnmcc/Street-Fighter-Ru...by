@@ -1,5 +1,3 @@
-require_relative "./move"
-
 class Fighter
   attr_reader :name, :health, :taunt
   attr_accessor :moves

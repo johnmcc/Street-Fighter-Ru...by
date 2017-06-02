@@ -1,6 +1,6 @@
 require "minitest/autorun"
 require "minitest/rg"
-require_relative "../src/move"
+require_relative "../src/Move"
 
 class TestMove < MiniTest::Test
   def setup

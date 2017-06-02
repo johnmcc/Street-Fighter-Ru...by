@@ -1,4 +1,3 @@
-require "pry-byebug"
 class Ui
   attr_reader :test_mode, :fighter_factory
   def initialize test_mode, fighter_factory

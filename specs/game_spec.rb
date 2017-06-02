@@ -1,7 +1,5 @@
 require "minitest/autorun"
 require "minitest/rg"
-require "pry-byebug"
-require_relative "../src/Fighter"
 require_relative "../src/FighterFactory"
 require_relative "../src/Game"
 require_relative "../src/Ui"

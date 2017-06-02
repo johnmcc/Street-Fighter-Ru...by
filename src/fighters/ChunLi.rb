@@ -1,5 +1,5 @@
-require_relative "../move"
-require_relative "../fighter"
+require_relative "../Move"
+require_relative "../Fighter"
 
 class ChunLi < Fighter 
   def initialize ai
