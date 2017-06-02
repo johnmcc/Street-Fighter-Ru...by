@@ -1,0 +1,1 @@
+Dir["specs/*.rb"].each{|s| load s }
