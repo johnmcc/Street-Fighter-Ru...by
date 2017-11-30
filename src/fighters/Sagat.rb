@@ -6,10 +6,9 @@ class Sagat < Fighter
     super ai
     @name = "Sagat"
     @taunt = "You are not a warrior, you are a rookie!"
-
     move1 = Move.new({ name: "Punch", damage: 5, hit_chance: 80 })
-    move2 = Move.new({ name: "Tiger Uppercut", damage: 20, hit_chance: 50 })
-    move3 = Move.new({ name: "Tiger Genocide", damage: 80, hit_chance: 5 })
+    move2 = Move.new({ name: "Tiger UpperCut", damage: 25, hit_chance: 60 })
+    move3 = Move.new({ name: "Tiger FireBall", damage: 40, hit_chance: 10 })
 
     @moves = [move1, move2, move3]
   end
