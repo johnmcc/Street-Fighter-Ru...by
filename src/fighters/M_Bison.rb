@@ -5,7 +5,7 @@ class M_Bison < Fighter
   def initialize ai
     super ai
     @name = "M. Bison"
-    @taunt = "I pity you!"
+    @taunt = "Grovel before me!"
 
     move1 = Move.new({ name: "Punch", damage: 5, hit_chance: 80 })
     move2 = Move.new({ name: "Scissor Kick", damage: 20, hit_chance: 50 })
