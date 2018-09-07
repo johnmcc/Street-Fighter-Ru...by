@@ -4,7 +4,6 @@ require_relative "../Fighter"
 class Balrog < Fighter 
   def initialize ai
     super ai
-    
     @name = "Balrog"
     @taunt = "Get up, you wimp!"
 
