@@ -1,7 +1,7 @@
 require_relative "../Move"
 require_relative "../Fighter"
 
-class Balrog < Fighter 
+class Broken < Fighter 
   def initialize ai
     super ai
     @name = "Balrog"
