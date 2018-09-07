@@ -1,6 +1,6 @@
 require "minitest/autorun"
 require "minitest/rg"
-require_relative "../src/Fighters/Ken"
+require_relative "../src/fighters/Ken"
 
 class TestFighter < MiniTest::Test
   def setup
